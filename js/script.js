@@ -96,7 +96,7 @@ function setLocalStorage(){
 }
 
 function getLocalStorage(){
-    console.log('setLocalStorage called', allElements);
+    
     const storedElements = localStorage.getItem('elements');
     if (storedElements) {
         var elementsValues = JSON.parse(storedElements);
